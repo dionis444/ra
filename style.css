@@ -1,0 +1,39 @@
+body{
+ background: lightgreen;
+  color: red;
+  font-size: 24px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+   text-decoration-color: green;
+  box-shadow: 20px 20px 10px #888888;
+  border: 1px solid blue;
+  border-radius: 25px;
+  width: 700px;
+  padding: 20px;
+  margin: 70px 20px;
+  display: inline-block;
+  font-stretch: expanded;
+  animation-fill-mode: none;
+ }
+ .button {
+ display: block;
+ width: 150px;
+ font-family: sans-serif, arial;
+ font-size: 14px;
+ line-height: 28px;
+ text-decoration: none;
+ text-transform: uppercase;
+ color: #fff;
+ background: transparent;
+ border: 2px solid;
+ text-align: center;
+margin: auto;
+}
+.button:hover {
+ background: #fff;
+ border-color: #fff;
+ color: #000;
+ transition-duration: 0.4s;
+}
